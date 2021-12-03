@@ -1,12 +1,8 @@
-# import numpy as np
-
-# for load outputs
+# to load outputs
 import pandas as pd
 
 # to read .xml files
 import xml.etree.ElementTree as ET
-
-import datetime as dt
 
 # to run simulation with command line executable JavaSticsCmd.exe
 import subprocess as sproc
@@ -14,7 +10,7 @@ import subprocess as sproc
 
 
 class usm():
-	""" Class containing all relevant information to a STICS usm (Unit of simulation) : directories, input and output files 
+	""" Class corresponding to a STICS usm (unit of simulation) with utilities to run simulations, change inputs and read output files. 
 		Initialized with the directory containing the usm and name
 		Directory containing the JavaSTICS executable (JavaSticsCmd.exe) needs to be given to run simulations
 	"""
