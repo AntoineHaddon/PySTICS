@@ -247,10 +247,3 @@ class usm():
 
 
 
-
-if __name__ == '__main__':
-	dir_corn2013 = '/home/ahaddon/Dropbox/Work/ReUse/code/stics/corn/'
-
-	corn2013 = usm(dir_corn2013,'maize_ref_2013') 
-
-	print(corn2013.get_ftec())
